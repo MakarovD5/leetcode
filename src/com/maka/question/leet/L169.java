@@ -1,17 +1,14 @@
-package com.maka.question;
-
-import java.util.Arrays;
-import java.util.HashMap;
+package com.maka.question.leet;
 
 /**
  * @author MakarovD
  * @date 2022/10/22 15:35
  * @description
  */
-public class Q169 {
+public class L169 {
     public static void main(String[] args) {
         int[] arr = {2,7,1,1,1,2,1};
-        int i = new Q169().majorityElement(arr);
+        int i = new L169().majorityElement(arr);
         System.out.println("i = " + i);
     }
 
